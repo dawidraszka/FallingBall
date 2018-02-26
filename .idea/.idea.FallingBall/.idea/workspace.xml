@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="d0460f2f-0efe-4add-8dc8-ecd736957c37" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.idea.FallingBall/.idea/contentModel.xml" afterPath="$PROJECT_DIR$/.idea/.idea.FallingBall/.idea/contentModel.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.idea.FallingBall/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/.idea.FallingBall/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -71,7 +72,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BottomBorderController.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BottomBorderController.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/BottomBorderController.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="170">
@@ -86,6 +87,21 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="BackgroundScroller.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/BackgroundScroller.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="23" column="5" lean-forward="false" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+              <folding>
+                <marker date="1519674388278" expanded="false" signature="6:78" ph="..." />
+                <marker date="1519674388278" expanded="true" signature="128:509" ph="{...}" />
+                <marker date="1519674388278" expanded="true" signature="243:335" ph="{...}" />
+                <marker date="1519674388278" expanded="true" signature="353:507" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="Git.Settings">
@@ -95,6 +111,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/SpawnController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/BottomBorderController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/BackgroundScroller.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CameraMover.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TopBorderController.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -106,6 +123,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/SpawnController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TopBorderController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/BottomBorderController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/BackgroundScroller.cs" />
       </list>
     </option>
   </component>
@@ -182,12 +200,12 @@
       <updated>1519670558878</updated>
       <workItem from="1519670563199" duration="9000" />
       <workItem from="1519670584045" duration="593000" />
-      <workItem from="1519673668403" duration="508000" />
+      <workItem from="1519673668403" duration="720000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1110000" />
+    <option name="totallyTimeSpent" value="1322000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -322,6 +340,19 @@
             <marker date="1519674171752" expanded="true" signature="132:274" ph="{...}" />
             <marker date="1519674171752" expanded="true" signature="183:272" ph="{...}" />
             <marker date="1519674171752" expanded="true" signature="231:269" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/BackgroundScroller.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="23" column="5" lean-forward="false" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+          <folding>
+            <marker date="1519674388278" expanded="false" signature="6:78" ph="..." />
+            <marker date="1519674388278" expanded="true" signature="128:509" ph="{...}" />
+            <marker date="1519674388278" expanded="true" signature="243:335" ph="{...}" />
+            <marker date="1519674388278" expanded="true" signature="353:507" ph="{...}" />
           </folding>
         </state>
       </provider>
