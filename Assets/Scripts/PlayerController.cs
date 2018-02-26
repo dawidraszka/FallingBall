@@ -14,13 +14,22 @@ public class PlayerController : MonoBehaviour {
 
 	private int layer;
 
+	private GameController gameController;
+
 	void Start () {
 		rigidbody2D = GetComponent<Rigidbody2D>();
 		collider = GetComponent<CircleCollider2D>();
 		
 		layer = LayerMask.GetMask("Platform");
+		
+		gameController = GameObject.FindWithTag("GameController").GetComponent<GameController>();
 	}
 
+	void Update()
+	{
+		gameController.UpdateScore(transform.position.y);
+	}
+	
 	void FixedUpdate()
 	{
 		isOnGround = collider.IsTouchingLayers(layer);
@@ -43,5 +52,10 @@ public class PlayerController : MonoBehaviour {
 		{
 			Destroy(gameObject);
 		}
+	}
+	
+	void OnDestroy()
+	{
+		gameController.EnableRestart();
 	}
 }
