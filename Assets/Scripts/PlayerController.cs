@@ -12,14 +12,18 @@ public class PlayerController : MonoBehaviour {
 	
 	private bool isOnGround;
 
+	private int layer;
+
 	void Start () {
 		rigidbody2D = GetComponent<Rigidbody2D>();
 		collider = GetComponent<CircleCollider2D>();
+		
+		layer = LayerMask.GetMask("Platform");
 	}
 
 	void FixedUpdate()
 	{
-		isOnGround = collider.IsTouchingLayers();
+		isOnGround = collider.IsTouchingLayers(layer);
 		
 		float moveHorizontal = Input.GetAxis("Horizontal");
    
