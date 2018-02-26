@@ -36,4 +36,12 @@ public class PlayerController : MonoBehaviour {
 			rigidbody2D.AddForce(new Vector2(0, 100 * jumpForce));
 		}
 	}
+	
+	void OnCollisionEnter2D(Collision2D other)
+	{
+		if (other.gameObject.CompareTag("Spike"))
+		{
+			Destroy(gameObject);
+		}
+	}
 }
